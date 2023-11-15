@@ -1,0 +1,71 @@
+body{
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    color: maroon;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.species-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.species-card {
+    width: 25%;
+}
+
+.species-card img {
+   width: 100%;
+   height: auto;
+}
+
+.species-card h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.species-card p {
+    margin-bottom: 10px;
+}
+
+.species-card a {
+    text-decoration: none;
+    color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    .species-card {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .species-card {
+        width: 100%;
+    }
+}
+#h1{
+    font-size: 350%;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2.5px 2.5px red;
+    background-color: rgb(6, 181, 6);
+}
+.logo{
+    padding-bottom: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-width: 0%;
+    background-color: hsl(90, 100%, 50%);
+}

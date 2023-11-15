@@ -1,0 +1,30 @@
+#img-caption{
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+#h1{
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2.5px 2.5px red;
+}
+.logo{
+  padding-bottom: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  max-width: 0%;
+  background-color: hsl(90, 100%, 50%);
+}
+*{
+  background-color: rgb(119, 195, 6);
+
+}
+#me{
+  font-size: 100px;
+  text-align: center;
+}
+#dff{
+  font-size: 50px;
+}

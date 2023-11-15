@@ -1,0 +1,53 @@
+
+* {
+    /* background-color: rgb(28, 255, 28); */
+    /* max-width: 500px; */
+    margin: auto;
+} 
+#h1{
+    font-size: 350%;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2.5px 2.5px red;
+    background-color: rgb(28, 255, 28);
+}
+.dis{
+    display: flex;
+}
+.dis p{
+    position: relative;
+    bottom: 55px;
+}
+.display{
+    display: flex;
+    align-items:start;
+    justify-content: center;
+   
+}
+.display p{
+    margin-bottom: 3%;
+}
+.logo{
+    padding-bottom: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-width: 0%;
+    background-color: hsl(90, 100%, 50%);
+}
+.navbar {
+    overflow: hidden;
+  font-family: monospace;
+  display: flex;
+  padding-left: 60%;
+  justify-content: end;
+  align-items: end;
+ 
+  font-size: 200%;
+  text-decoration-style: none;
+}
+
+#about{
+    font-style: italic;
+    font-family: monospace;
+}
